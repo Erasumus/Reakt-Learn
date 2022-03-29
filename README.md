@@ -1,3 +1,3 @@
 # Reakt-Learn
 Reakt-Learn
-this is reakt learned
+this is reakt learn
