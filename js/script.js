@@ -1,9 +1,9 @@
 "use strict";
 
-let number1 = 5;
-const leftBorderWidth = 1;
+let number = 5;
+const leftzorderWidth = 1;
 
-number1 = 10;
+number = 10;
 // console.log(number);
 
  const obj = {
@@ -61,7 +61,7 @@ alert(`Привет, ${user}`);
 console.log('arr' + "- object");
 console.log(5 + +"3");
 
-let incr = 10,
+let incr = 11,
     decr = 10;
 // console.log(incr++);
 // console.log(decr--);
