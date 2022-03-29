@@ -62,7 +62,7 @@ console.log('arr' + "- object");
 console.log(5 + +"3");
 
 let incr = 11,
-    decr = 10;
+    decr = 11;
 // console.log(incr++);
 // console.log(decr--);
 console.log(++incr);
