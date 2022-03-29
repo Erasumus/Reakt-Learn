@@ -1,9 +1,9 @@
 "use strict";
 
-let numbertes = 5;
+let numbertest = 5;
 const leftBorderWidth = 1;
 
-numbertes = 10;
+numbertest = 10;
 // console.log(number);
 
  const obj = {
