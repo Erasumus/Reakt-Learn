@@ -1,9 +1,9 @@
 "use strict";
 
-let number1 = 5;
+let number = 5;
 const leftzorderWidth = 1;
 
-number1 = 10;
+number = 10;
 // console.log(number);
 
  const obj = {
