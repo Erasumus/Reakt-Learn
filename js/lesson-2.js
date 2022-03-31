@@ -20,3 +20,25 @@ switch (num){
         break;
 }
 
+let num2 = 50;
+while (num2 <= 55){
+    console.log(num);
+    num2++;
+}
+
+do {
+    console.log(num2);
+    num2++;
+}
+while (num2 < 55);
+
+for (let i = 1; i < 8; i++){
+    if (i == 5){
+        continue;
+    }
+    else if (i == 7){
+        break;
+    }
+    console.log(num2);
+    num2++;
+}
