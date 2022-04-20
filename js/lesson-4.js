@@ -1,5 +1,6 @@
 "use strict";
 
+//Отрабатывание фукнции в течении определенного времени
 function first(){
     setTimeout(function(){
         console.log(1);
@@ -13,6 +14,8 @@ function second(){
 first();
 second();
 
+
+//Работа с Callback
 function learnJS(lang, callback){
     console.log(`Я учу: ${lang}`);
     callback();
