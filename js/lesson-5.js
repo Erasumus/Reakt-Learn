@@ -1,5 +1,5 @@
 "use strict";
-
+//Объекты и деструктуризация объектов
 const options = {
     name: 'test',
     width: 1024,
@@ -8,7 +8,7 @@ const options = {
         border: 'black',
         bg: 'red'
     },
-    makeTest: function(text){
+    makeTest: function (text) {
         console.log(text);
     }
 };
@@ -34,4 +34,3 @@ console.log(Object.keys(options).length);
 // }
 
 // console.log(counter);
-
