@@ -1,3 +1,4 @@
+//NO index.html
 "use strict";
 //Объекты и деструктуризация объектов
 const options = {

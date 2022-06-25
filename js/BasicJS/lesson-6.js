@@ -1,3 +1,4 @@
+//NO index.html
 "use strict";
 //////////////////////////////////////////////
 //1. Работа с массивами - добавление/удаление
@@ -12,27 +13,31 @@ console.log(arr);
 arr.push(10);
 console.log(arr);
 
-const str = prompt("", "");
+const str = "ds, da, dd";
 //1.3. убираем разделители ввода пользователем [, ]
 const products = str.split(", ");
+console.log(products);
 //1.4. Сортировать по порядку (но сортирует строки)
 products.sort();
 //1.5. показываем весь массив вместе с выбранным разделителем [; ]
 console.log(products.join('; '));
 //1.6. Но можно указывать как именно сортировать если сделать callback
-arr.sort(compareNum);
+const sortarr = [4,9,8,7]
+sortarr.sort(compareNum);
 function compareNum(a, b){
     return a - b;
 }
-console.log(arr);
+console.log(sortarr);
 
 //////////////////////////////////////////////
 //2. Работа с массивами пробег по элементам
 //2.1. console.log(arr.length)
+const massivelength = ["a", "b", "c", "d"];
 let massive1 = "[";
-for (let i = 0; i < arr.length; i++) {
-    massive1 += arr[i] + ", ";
+for (let i = 0; i < massivelength.length; i++) {
+    massive1 += massivelength[i] + ", ";
 }
+console.log(massivelength);
 console.log(massive1 + "]");
 
 //если мы добавляем в какой-та сотый элемент, то массив создает пустые элементы
@@ -48,12 +53,13 @@ for (let value of arr) {
 console.log(massive2 + "]");
 
 //2,3 Foreach метод (важное)
-arr.forEach(function (item, i, arr) {
-    console.log(` [${i}] : ${item} значения массива: ${arr}`);
+const fruits = ["🍎", "🍊", "🍋", "🍓", "🥝"];
+fruits.forEach(function (item, i, fruits) {
+    console.log(` [${i}] : ${item} значения массива: ${fruits}`);
 });
 
-arr.forEach((item, i, arr) => {
-    console.log(` [${i}] : ${item} значения массива: ${arr}`);
+fruits.forEach((item, i, fruits) => {
+    console.log(` [${i}] : ${item} значения массива: ${fruits}`);
 });
 
 //Эдакое раскрытие Foreach (мне проще было его так разобрать)
@@ -61,7 +67,6 @@ function sliceFruit(fruit) {
     console.log("Разрезаю " + fruit + "!");
 }
 
-const fruits = ["🍎", "🍊", "🍋", "🍓", "🥝"];
 fruits.forEach(sliceFruit);
 
 //arr.map - изменение

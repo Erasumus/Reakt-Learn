@@ -1,3 +1,4 @@
+//NO index.html
 "use stritct";
 
 //1. Как работают функции
