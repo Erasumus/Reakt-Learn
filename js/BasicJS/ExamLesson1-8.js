@@ -11,7 +11,8 @@ alert(null || 2 && 3 || 4); //Таблица приоритетов логиче
 const a =[1,2,3], b = [1,2,3]; console.log(a == b); 
 alert(+"infinity");
 console.log("Ёжик" > "яблоко");
-console.log(0 || "" || 2 || null || 4 || undefined);
+console.log(0 || "" || 2 || null || 4 || undefined); // || на правде && на лжи
+
 
 
 

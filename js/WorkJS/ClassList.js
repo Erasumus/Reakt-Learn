@@ -27,5 +27,3 @@ wrapper.addEventListener('click', (event)=>{
     }
 });
 
-
-w
